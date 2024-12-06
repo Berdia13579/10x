@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    list-style: none;
+}
+
+header {
+    height: 100px;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.epic-games img{
+    width: 30px;
+    margin-left: 20px;
+}
+
+.navlist{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.login-icon img{
+    width: 30px;
+}
+
+.navlist {
+    display: flex;
+    gap: 20px;
+}
+main .games{
+    height: 250px;
+    width: 100%;
+    margin-top:10;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(9, 9, 4, 0.234);
+}
+
+.icon img {
+    width: 300px;
+}
+.motamashekaci{
+    text-align: center;
+    color: brown;
+    font-size:xx-large;
+}
+
+
+footer{
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+}
